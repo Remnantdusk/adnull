@@ -2323,6 +2323,7 @@ ad.at.doubleclick.net
 ad.atdmt.com
 ad.au.doubleclick.net
 ad.auditude.com
+ad.baihemob.com
 ad.bannerbank.ru
 ad.bannerhost.ru
 ad.batanga.com
@@ -2566,6 +2567,7 @@ ad.sensismediasmart.com
 ad.sensismediasmart.com.au
 ad.sg.doubleclick.net
 ad.sgdgjarfpp123.com
+ad.shunchangzhixing.com
 ad.si.doubleclick.net
 ad.simgames.net
 ad.sitemaji.com
@@ -5825,6 +5827,7 @@ adx.timesdaily.com
 adx.vn
 adx.xemvtv.net
 adx.xtv.vn
+adx.zuoyebang.com
 adx2.adform.net
 adxcallback.batmobi.net
 adxlog.vivo.com.cn
@@ -8085,6 +8088,7 @@ aphrodite.porntrack.com
 api-05.com
 api-2-0.spot.im
 api-a.op-mobile.opera.com
+api-access.pangolin-sdk-toutiao1.com
 api-ad-callback.mobiuspace.net
 api-analytics-bootstrap.metaps.com
 api-analytics.metaps.com
@@ -8388,6 +8392,7 @@ api.tapstream.com
 api.target2sell.com
 api.theadex.com
 api.tjme.io
+api.toutiaoapi.com
 api.trackuity.com
 api.treasuredata.com
 api.triver.jp
@@ -14313,6 +14318,7 @@ cn.adserver.yahoo.com
 cn.clickable.net
 cn.devglobal.biz
 cn.ecritel.bench.cedexis.com
+cn.tracker.mtrtb.com
 cn2.adserver.yahoo.com
 cname.leadzu.com
 cnbnews.com
@@ -16319,6 +16325,7 @@ de-config.sensic.net
 de-gmtdmp.mookie1.com
 de.2.cqcounter.com
 de.5.p2l.info
+de.ad.gameley.com
 de.ads.adviva.net
 de.ads.justpremium.com
 de.adserver.yahoo.com
@@ -21453,6 +21460,7 @@ fyronyxdriftorgpttrade.com
 fyxm.net
 fz.tiansys.cn
 fzip.thanhnien.vn
+g-api.kwai.com
 g-pixel.invitemedia.com
 g.3gl.net
 g.adimg.net
@@ -24719,6 +24727,7 @@ impression-asia.liftoff.io
 impression-east.liftoff.io
 impression-europe.liftoff.io
 impression.appsflyer.com
+impression.biligame.com
 impression.link
 impression.nend.net
 impression.taptica.com
@@ -25924,6 +25933,7 @@ jp-gmtdmp.mookie1.com
 jp-lb.gumgum.com
 jp-microsoft-store.com
 jp-tags.mediaforge.com
+jp.ad.gameley.com
 jp.admob.com
 jp.api.share.mob.com
 jp.at.atwola.com
@@ -26858,6 +26868,7 @@ ktrackdata.com
 ktu.sv2.biz
 ktva.112.2o7.net
 kuaishou.com
+kuaishouzt.com
 kubek-tu.lovable.app
 kuder.fr
 kudoge-nikomi.info
@@ -26909,6 +26920,7 @@ kvuldranelu-platform.org
 kvuldranelutrade.com
 kwaishop.com
 kwaixiaodian.com
+kwaizt.com
 kwangthana.net
 kwaterowanie.pl
 kwbtgame.com
@@ -28098,7 +28110,6 @@ log.lemonpi.io
 log.lichviet.org
 log.logrocket.io
 log.medietall.no
-log.mmstat.com
 log.mobpowertech.com
 log.mp3.zing.vn
 log.ncaudienceexchange.com
@@ -28118,6 +28129,7 @@ log.pinterest.com
 log.plo.vn
 log.pv.eclick.vn
 log.pv1.eclick.vn
+log.qchannel03.cn
 log.quora.com
 log.saigondautu.com.vn
 log.sdk.zadn.vn
@@ -28790,6 +28802,7 @@ m01.webwise.org
 m02.webwise.org
 m1-shop.ru
 m1.2mdn.net
+m1.ad.10010.com
 m1.fwmrm.net
 m1.nedstatbasic.net
 m1.nsimg.net
@@ -30695,6 +30708,7 @@ monopris.fr
 monorperis.store
 monotdefla.cyou
 monppaiement.fr
+monsetting.toutiao.com
 monsoonyielmere.net
 monstead-uk.pics
 monsteadix-uk.org
@@ -38529,6 +38543,7 @@ report.novaon.asia
 report.personali.com
 report.qq.com
 report.salmonads.com
+report.shunchangzhixing.com
 report.vnay.vn
 report02.adtech.fr
 report02.adtech.us
@@ -40283,6 +40298,7 @@ sdk.adotmob.com
 sdk.adsongo.com
 sdk.adspruce.com
 sdk.adtiming.com
+sdk.adx.adwangmai.com
 sdk.api.kaffnet.com
 sdk.api.qgraph.io
 sdk.appadhoc.com
@@ -41307,6 +41323,7 @@ sigma-statistics-push.proxima.nie.easebar.com
 sigmaclient.net
 sigmaclient.org
 sigmglithash.site
+sigmob.cn
 sigmziedge.site
 signal-beacon.s-onetag.com
 signal-metrics-collector-beta.s-onetag.com
@@ -43434,6 +43451,7 @@ stats.buysellads.com
 stats.cafepress.com
 stats.canalblog.com
 stats.cartoonnetwork.com
+stats.cdnjtzy.com
 stats.cityadstrack.com
 stats.clickability.com
 stats.clicktracks.com
@@ -43518,6 +43536,7 @@ stats.realclick.vn
 stats.resellerratings.com
 stats.restartad.com
 stats.revenue.net
+stats.rong-edge.com
 stats.sa-as.com
 stats.self.com
 stats.sextracker.com
@@ -47802,6 +47821,7 @@ unganexbitappengine.com
 unglatrasv.cyou
 unhallowed.pl
 uni-littoral.fr
+uni-shumeng.zhipin.com
 uniclick.openv.com
 unid.go.com
 unidentifiedanalytics.web.app
@@ -74454,3 +74474,41 @@ zz3r0.com
 zzhc.vnet.cn
 zzkwg.comfortykive.xyz
 zzz.onion.pet
+
+# 白名单：优先级高于规则表，命中即放行
+!adx-data.yfanads.com
+!aispace.baidu.com
+!ams.amap.com
+!api.device.xiaomi.net
+!api.map.baidu.com
+!apilocate.amap.com
+!app.market.xiaomi.com
+!appnavi.baidu.com
+!aps.amap.com
+!client.map.baidu.com
+!cnloc.map.baidu.com
+!connectivitycheck.gstatic.com
+!ecm.cmpassport.com
+!ecom.map.baidu.com
+!find.api.micloud.xiaomi.net
+!keyapi.micloud.xiaomi.net
+!lc.map.baidu.com
+!log.mmstat.com
+!mangafunb.fun
+!msg.cmpassport.com
+!newclient.map.baidu.com
+!ofapi.baidu.com
+!ofloc.map.baidu.com
+!onekey.cmpassport.com
+!onekey1.cmpassport.com
+!onekey2.cmpassport.com
+!restapi.amap.com
+!route.map.baidu.com
+!s-gm.mmstat.com
+!tracker.yfanads.com
+!tracking.miui.com
+!tts.baidu.com
+!wappass.baidu.com
+!websocket.map.baidu.com
+!www.baidu.com
+!www.cmpassport.com
