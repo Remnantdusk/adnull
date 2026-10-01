@@ -340,6 +340,8 @@
 1pt.cqcounter.com
 1qingdao.com
 1re.info
+1rtb.com
+1rtb.net
 1rx.io
 1se.cqcounter.com
 1sexe1.free.fr
@@ -3345,6 +3347,7 @@ admixer.net
 admized.com
 admob.com
 admobclick.com
+admonitor-feedback.cn-hangzhou.log.aliyuncs.com
 admonitor.com
 admonkey.dapper.net
 admost.com
@@ -7933,6 +7936,7 @@ anylist.c.appier.net
 anymind360-com.cdn.ampproject.org
 anymind360.com
 anythinghollywood.us.intellitxt.com
+anythinktech.com
 anz-shield-secure.com
 anz.rd.rakuten.co.jp
 anzanish.tripod.com
@@ -25539,6 +25543,7 @@ iybasketball.info
 iyfbodn.com
 iyfnzgb.com
 iyogi.demdex.net
+iytcdn.com
 izalukaj.pl
 izar.iad-03.braze.com
 izarc.fr
@@ -27511,6 +27516,7 @@ lezboncoin.fr
 lezpress.fr
 leztruvin-pro.pages.dev
 leztruvin-spain.org
+lf-cdn-tos.bytescm.com
 lf8aim.cfd
 lfeeder.com
 lfs7.t2ltdy.top
@@ -34230,6 +34236,7 @@ p4dt2-scyd6.ads.tremorhub.com
 p4dt2-uma55.ads.tremorhub.com
 p4h8zn.lat
 p4psearch.china.alibaba.com
+p5-ex-gddgtc-sign.douyinpic.com
 p5.preppypm.com
 p5c7vr.lat
 p5ic8n.cfd
@@ -42956,6 +42963,7 @@ st1.hit.gemius.pl
 st1.ifbyphone.com
 st32r.b2bfzb.cfd
 st5fdbvs.r.us-east-1.awstrack.me
+sta-ads-risk-capture-material.oss-cn-zhangjiakou.aliyuncs.com
 stab.thench.net
 stabelpaycore.de
 stabilefundaris.com
@@ -44701,6 +44709,7 @@ tanne-zinswald.com
 tannegewinnik.de
 tanscarattorneys.co.tz
 tanszepaliwo.shop
+tanx.com
 taobaoafp.allyes.cn
 taotaolm.com
 taouxis.gr
@@ -47592,6 +47601,7 @@ uberupload.topupload.ru
 uberupload.uploadbox.world
 ubimoinappdisplay34181600889.s.moatpixel.com
 ubiquitous-octo-funicular.appwrite.network
+ubixioe.com
 ublock.org
 ubmcmm.baidustatic.com
 ubntrooters.serveuser.com
