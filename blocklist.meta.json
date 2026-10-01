@@ -1,8 +1,8 @@
 {
   "version": "2026.10.01",
-  "entries": 74447,
-  "rules_sha256": "95e63b41bf2b16fc8feacc4c9fd461238f0b9daf6b4b9dcd3c507b9b2ded1273",
-  "generated_at": "2026-10-01 20:47:44",
+  "entries": 74452,
+  "rules_sha256": "04fdee5bf0b24488ace38ea3ad34618a90622e90d7d0e61367255bf8b4ee1a37",
+  "generated_at": "2026-10-01 20:52:38",
   "sources": [
     {
       "name": "StevenBlack/hosts",
@@ -11,6 +11,6 @@
       "entries": 74406
     }
   ],
-  "custom_entries": 95,
+  "custom_entries": 100,
   "note": "rules_sha256 是对 blocklist.txt 完整文件字节算的，客户端下载后本地重算比对"
 }
