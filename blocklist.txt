@@ -74478,7 +74478,6 @@ zzkwg.comfortykive.xyz
 zzz.onion.pet
 
 # 白名单：优先级高于规则表，命中即放行
-!adx-data.yfanads.com
 !aispace.baidu.com
 !ams.amap.com
 !api.device.xiaomi.net
@@ -74520,7 +74519,6 @@ zzz.onion.pet
 !restapi.amap.com
 !route.map.baidu.com
 !s-gm.mmstat.com
-!tracker.yfanads.com
 !tracking.miui.com
 !tts.baidu.com
 !wappass.baidu.com
