@@ -1,37 +1,87 @@
 # adnull
 
-`adnull` 本地 DNS 过滤器的规则分发仓库。
+一个**设备级、无需 root** 的 Android 本地 DNS 过滤器，用于拦截广告与追踪域名。
 
-## 文件说明
+- **下载**：[Releases](https://github.com/Remnantdusk/adnull/releases) → 最新版 APK
+- **体积**：约 533 KB（内含完整规则，安装后离线可用）
 
-| 文件 | 用途 |
-| --- | --- |
-| `blocklist.txt` | 规则本体。每行一个域名，匹配该域及其全部子域；`#` 开头为注释，`!` 开头为白名单 |
-| `blocklist.meta.json` | 元数据。含版本号、条目数与 **`rules_sha256`** |
+---
 
-## 客户端如何校验
+## 它做什么
 
-客户端（`com.adnull.filter`）拉取规则时的顺序固定：
+基于 Android 的 `VpnService` API，在设备上建立一个**只处理 DNS 的本地虚拟网卡**：
 
-1. `GET blocklist.meta.json` → 读出 `rules_sha256`
-2. `GET blocklist.txt` → 本地重算 SHA-256，与上一步声明的值比对
-3. **比对通过**才原子替换本地规则文件；任何一步失败都保留旧规则
-
-因此 **`rules_sha256` 必须与 `blocklist.txt` 的实际字节一致**（对完整文件内容算哈希，
-包含注释行与白名单行）。改规则时两个文件必须同时更新，缺一不可 ——
-只更新其一会导致客户端校验失败、静默沿用旧规则。
-
-## 客户端配置的地址
-
-- 主（CDN，国内可达性更好）：`https://cdn.jsdelivr.net/gh/Remnantdusk/adnull@main/blocklist.txt`
-- 备（GitHub raw）：`https://raw.githubusercontent.com/Remnantdusk/adnull/main/blocklist.txt`
-
-## 更新流程
-
-规则由生成脚本产出，不要手工编辑 `blocklist.txt`：
-
-```bash
-python tools/dev/emit_release.py     # 产出 blocklist.txt 与 blocklist.meta.json
+```
+App 要解析域名
+  ↓（系统的 DNS 流量被导入本地 tun）
+adnull 解析出域名 → 查规则表
+  ├─ 命中拦截 → 直接回空结果，广告 SDK 快速失败
+  └─ 未命中   → 向上游正常解析，原样返回
 ```
 
-该脚本会对「最终写盘的完整字节」算哈希，并用下载者视角独立复算一次做自检。
+关键设计：
+
+- **只导 DNS**：只把到 DNS 服务器的流量导入隧道，**不通配 `0.0.0.0/0`**，
+  不做全局代理、不转发任何其他数据，对网速的影响可忽略
+- **设备级生效**：`VpnService` 的 tun 与系统原生 DNS 路径在同一层，
+  因此**所有 App 的 DNS 都经过它**，不需要逐个配置，也不需要 root
+- **不收集任何数据**：无统计上报、无账号、无网络回传。规则更新只做单向拉取
+- **白名单是运行时强保护**：命中白名单的域名无条件放行，优先级高于规则表。
+  这是为了避免上游列表误伤业务接口（历史上确有地图、一键登录等接口被误拦）
+
+## 安装与使用
+
+1. 下载并安装 APK（首次需允许"未知来源"）
+2. 打开 adnull → 点「开启过滤」→ 在系统弹窗中**允许 VPN 连接**
+3. 完成
+
+建议：
+
+- 把 adnull 加入**电池优化白名单**，否则后台服务可能被系统回收、过滤静默失效
+- 打开「**始终开启的 VPN**」可提高存活率（注意：不要开「锁定模式/Block connections without VPN」，
+  本应用只处理 DNS，开启后会断网）
+- 设置好后**重启一次手机**验证服务能自动恢复
+
+## 规则
+
+| 项 | 说明 |
+| --- | --- |
+| 内置规则 | 见各版本发布说明（当前约 7.4 万条 + 51 条白名单） |
+| 主要来源 | [StevenBlack/hosts](https://github.com/StevenBlack/hosts)（**MIT License**） |
+| 补充来源 | 针对常见中文广告联盟与本机实测的定向补充 |
+| 更新方式 | App 每日自动拉取一次，带 **SHA-256 校验**；校验不过则保留旧规则 |
+
+规则文件与元数据在本仓库根目录：
+
+- `blocklist.txt` —— 每行一个域名，匹配该域及其全部子域；`#` 注释；`!` 前缀为白名单
+- `blocklist.meta.json` —— 含 `version`、`entries` 与 `rules_sha256`
+
+**改规则的流程**（不要手工编辑 `blocklist.txt`）：
+
+```bash
+python tools/dev/emit_release.py     # 或 merge_sources.py（含上游合并）
+```
+
+脚本会对**最终写盘的完整字节**算哈希，并用"下载者视角"独立复算一次自检。
+
+> **重要**：`rules_sha256` 必须与 `blocklist.txt` 的实际字节一致。
+> 仓库已配置 `.gitattributes` 将规则文件标记为 `-text`，**禁止 Git 的 LF→CRLF 自动转换** ——
+> 字节一变哈希就会不符，客户端会静默沿用旧规则，且现象酷似网络故障。
+
+## 已知限制
+
+诚实列出能力边界，避免误以为是缺陷：
+
+- **只处理 UDP 53**；TCP DNS、DoT/DoH 未做
+- **无法拦截与业务同域名的广告**：若广告素材由 App 自身的服务端接口下发，
+  DNS 层无法区分"这是广告"还是"这是内容"。这是 DNS 过滤的固有边界，不是域名没找对
+- **无法阻止部分广告的「摇一摇」**：普通应用读加速度计不需要权限，
+  系统层也无法吊销。但若跳转链路被拦截，摇了也跳不出去
+- **对已缓存的广告素材无效**：DNS 管的是"请求能不能发出去"，管不了"已下载的素材还能不能用"
+- 规则命中即拦整个域及其子域，不支持更细粒度的通配
+
+## 许可与致谢
+
+- 本项目代码：随本仓库发布
+- 内置规则源自 [StevenBlack/hosts](https://github.com/StevenBlack/hosts)，MIT License
+- 规则中的厂商系统服务白名单（小米/华为/联通等）为独立维护，用于防止误拦导致系统异常
