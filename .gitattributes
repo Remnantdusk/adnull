@@ -1,0 +1,9 @@
+# 规则文件必须保持 LF 换行，禁止任何自动转换。
+#
+# 原因：客户端按 SHA-256 校验 blocklist.txt 的完整字节。
+# 若 Git 在检入/检出时把 LF 换成 CRLF（Windows 默认行为），字节内容改变，
+# 哈希必然不符，客户端会静默沿用旧规则 —— 且排查时现象酷似网络问题。
+# 这里显式声明 -text（即不做任何换行转换、按二进制处理）来钉死字节。
+blocklist.txt        -text
+blocklist.meta.json  -text
+*.json               -text
