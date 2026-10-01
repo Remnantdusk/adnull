@@ -5835,6 +5835,7 @@ adxcallback.batmobi.net
 adxlog.vivo.com.cn
 adxpansion.com
 adxpose.com
+adxvip.com
 adxxx.me
 adxxx.org
 adxxxxxmost.co
@@ -14012,6 +14013,7 @@ clickcash.com
 clickcdn.shareaholic.com
 clickcease.com
 clickdensity.com
+clickdsp.meituan.com
 clickedyclick.com
 clicker.chiaki.vn
 clickfunnels.com
@@ -24696,6 +24698,7 @@ impch.tradedoubler.com
 impcz.tradedoubler.com
 impde.tradedoubler.com
 impdk.tradedoubler.com
+impdsp.meituan.com
 impectorinternational.com
 imperiovector-gpt.com
 imperiovector-gpt.org
@@ -39478,6 +39481,7 @@ s.adroll.com
 s.adtelligent.com
 s.advertiserurl.com
 s.adx.io
+s.adxvip.com
 s.amazon-adsystem.com
 s.arclk.net
 s.atemda.com
