@@ -32765,6 +32765,8 @@ occi.opencoccoc.com
 ocd.yodo1api.com
 ocdn.adsterra.com
 oceancloudhosts.com
+oceanengine.com
+oceanengine.com.cn
 oceanup.us.intellitxt.com
 oceniam.to
 ochnik.plpepco.shop
@@ -33666,6 +33668,7 @@ opalekogroszek.pl
 opaltradeviax.org
 opcwdns.opcw.nl
 open.adview.cn
+open.e.kuaishou.cn
 open.e.kuaishou.com
 open.inc2.igexin.com
 open.isnssdk.com
@@ -34905,6 +34908,7 @@ pggsklep.com
 pgl.example.com
 pgl.example0101
 pglstatp-toutiao.com
+pglstatp-toutiao.com.cn
 pgmediaserve.com
 pgnig-1pl.web.app
 pgpartner.com
