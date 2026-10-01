@@ -1,8 +1,8 @@
 {
   "version": "2026.10.01",
   "entries": 74478,
-  "rules_sha256": "230d5b8dea62ebaa8067182ef8e5d77b6464460400d27304c9f66fd890975a4b",
-  "generated_at": "2026-10-01 21:11:52",
+  "rules_sha256": "3a475e9961df632d145ad67bbfd52b2b1bce8a2a83ffa1fac3b27ed10e153e81",
+  "generated_at": "2026-10-01 21:18:08",
   "sources": [
     {
       "name": "StevenBlack/hosts",
