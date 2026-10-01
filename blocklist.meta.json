@@ -1,0 +1,9 @@
+{
+  "version": "2026.10.01",
+  "entries": 71,
+  "whitelist_entries": 9,
+  "rules_sha256": "dc3a508ba02d95a43dedb77b07f2c5a7f36cef271924ade0a23cd5035029d6bc",
+  "generated_at": "2026-10-01 20:24:13",
+  "source": "tools/blacklist.txt",
+  "note": "rules_sha256 是 blocklist.txt 去掉注释与白名单行之后的纯域名内容的哈希；客户端下载后本地重算比对这个值，用于发现传输损坏或中间篡改"
+}
