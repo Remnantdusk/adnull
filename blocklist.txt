@@ -1957,6 +1957,7 @@ abtasty.com
 abtasty.net
 abtest.alibaba.com
 abtest.mistat.xiaomi.com
+abtest.zuoyebang.com
 abtesting.perfectcorp.com
 abtracker.adultbouncer.com
 abundan-fincap.shop
@@ -2256,6 +2257,7 @@ ad-vice.biz
 ad-wisteria.excite.co.jp
 ad-x.co.uk
 ad.103092804.com
+ad.12306.cn
 ad.23blogs.com
 ad.24h.com.vn
 ad.360in.com
@@ -74485,12 +74487,18 @@ zzz.onion.pet
 !app.market.xiaomi.com
 !appnavi.baidu.com
 !aps.amap.com
+!bcelive.com
+!biligame.com
+!catchdata.xiaojukeji.com
+!chaoxing.com
 !client.map.baidu.com
 !cnloc.map.baidu.com
 !connectivitycheck.gstatic.com
+!daxuesoutijiang.com
 !ecm.cmpassport.com
 !ecom.map.baidu.com
 !find.api.micloud.xiaomi.net
+!hd.xiaojukeji.com
 !keyapi.micloud.xiaomi.net
 !lc.map.baidu.com
 !log.mmstat.com
@@ -74499,9 +74507,16 @@ zzz.onion.pet
 !newclient.map.baidu.com
 !ofapi.baidu.com
 !ofloc.map.baidu.com
+!omgup.xiaojukeji.com
 !onekey.cmpassport.com
 !onekey1.cmpassport.com
 !onekey2.cmpassport.com
+!pharos.zuoyebang.com
+!pluto.zuoyebang.com
+!pull.etoote.com
+!pull.yximgs.com
+!raven.xiaojukeji.com
+!res.xiaojukeji.com
 !restapi.amap.com
 !route.map.baidu.com
 !s-gm.mmstat.com
@@ -74512,3 +74527,5 @@ zzz.onion.pet
 !websocket.map.baidu.com
 !www.baidu.com
 !www.cmpassport.com
+!xxt.aichaoxing.com
+!yukeweb.com
