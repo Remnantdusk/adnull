@@ -74484,6 +74484,16 @@ zzkwg.comfortykive.xyz
 zzz.onion.pet
 
 # 白名单：优先级高于规则表，命中即放行
+vlion.cn
+etoolads.cn
+tobidad.cn
+fancydsp.com
+fancyapi.com
+adbiding.com
+adashx.ut.cainiao.com
+nlog.daxuesoutijiang.com
+report-user-online-event.cn-wulanchabu.dualstack.log.aliyuncs.com
+nbnetflow-reply-log.cn-wulanchabu.dualstack.log.aliyuncs.com
 !adx-data.yfanads.com
 !aispace.baidu.com
 !ams.amap.com
@@ -74535,3 +74545,19 @@ zzz.onion.pet
 !www.cmpassport.com
 !xxt.aichaoxing.com
 !yukeweb.com
+!realtech-inc.com
+!web.xinyifm.cn
+!sensorsdata.xiaocanapp.com
+!acs.m.taobao.com
+!id6.me
+!card.e.189.cn
+!fp-it.fengkongcloud.com
+!getui.com
+!getui.net
+!sdk-open-phone.getui.com
+!appdownload.alicdn.com
+!rumt-zh.com
+!apmplus.volces.com
+!mssdk.volces.com
+!webcast-open.douyin.com
+!webcast5-open-lq.douyin.com
