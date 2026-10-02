@@ -1,8 +1,8 @@
 {
   "version": "2026.10.02",
-  "entries": 74495,
+  "entries": 74494,
   "rules_sha256": "caaec959e40955c82c90a5538a9d55754e8a6dab3eac63c6b94e32af4e2739c3",
-  "generated_at": "2026-10-02 13:54:24",
+  "generated_at": "2026-10-02 13:55:27",
   "sources": [
     {
       "name": "StevenBlack/hosts",
@@ -13,5 +13,7 @@
   ],
   "custom_entries": 136,
   "note": "rules_sha256 是对 blocklist.txt 完整文件字节算的，客户端下载后本地重算比对",
-  "whitelist_entries": 67
+  "whitelist_entries": 67,
+  "count": 74494,
+  "whitelist": 67
 }
